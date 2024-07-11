@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dpa-spfx-render-client-side-solution",
+    "id": "99be0fdf-daac-40de-964b-f9cb2ff28575",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "dpa-spfx-render description"
+      },
+      "longDescription": {
+        "default": "dpa-spfx-render description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "dpa-spfx-render Feature",
+        "description": "The feature that activates elements of the dpa-spfx-render solution.",
+        "id": "14ae79bb-2100-46b8-ba5c-ab9b0d6d1726",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dpa-spfx-render.sppkg"
+  }
+}
